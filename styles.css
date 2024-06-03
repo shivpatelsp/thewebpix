@@ -1,0 +1,36 @@
+.navbar-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+    margin-bottom: 0;
+}
+.navbar-brand img{
+    width: 200px;
+    transition: all 0.15s ease;
+    cursor: pointer;
+}
+.navbar-brand:hover img{
+
+    width: 205px;
+    transition: all 0.15s ease;
+
+}
+.section-1{
+    height: 100vh;
+    padding-top: 90px;
+    background-image: url('/webpixbg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    /* background-color: #5552ff; */
+}
+
+.header-custom{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
